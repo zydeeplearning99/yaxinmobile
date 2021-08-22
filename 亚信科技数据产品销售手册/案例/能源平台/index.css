@@ -1,0 +1,218 @@
+html body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #C3D4FF;
+}
+.box2 {
+    z-index: 233;
+    height: 4rem;
+    background-color: rgba(123, 163, 255, 1);
+    width: 46.875rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.word2 {
+    z-index: 234;
+    width: 6rem;
+    display: block;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    font-family: PingFangSC-Regular;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  .bg1{
+      width: 46.875rem;
+      height: 31.75rem;
+      background-image: url(./img/集中化@2x.png);
+      background-size: 46.875rem 31.75rem;
+  }
+  .bg1 img{
+      width: 36.5625rem;
+      height: 9.5625rem;
+      margin: 9.5rem 5.125rem 12.6875rem 5.1875rem;
+  }
+
+  .bg2{
+      z-index: 10;
+      width: 43.125rem;
+      /* height: 31.25rem; */
+      margin: 0 auto;
+      position: relative;
+      top: -6.1875rem;
+      background-image: url(./img/编组\ 14@2x.png);
+      background-size: 100% 100%;
+      padding-top: 3.6875rem;
+      padding-bottom: 1.5rem;
+      margin-bottom: -6.1875rem;
+  }
+  .title1{
+    width: 34.4375rem;
+    /* height: 5rem; */
+    line-height: 2.5rem;
+    /* text-align: center; */
+    font-size: 1.75rem;
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.85);
+    margin: 0 auto;
+    margin-top: 0.9375rem;
+    margin-bottom: 1.25rem;
+}
+
+
+  .context1{
+     width: 34.4375rem; 
+     line-height: 2.5rem;
+     font-size: 1.5rem;
+     color: rgba(0, 0, 0, 0.85);
+     font-weight:400;
+     margin: 0 auto;
+     font-family: PingFangSC-Regular, sans-serif
+  }
+
+ 
+
+  .capility1 , .capility2 {
+      width: 22.875rem;
+      height: 7.6875rem;
+      margin: 3.125rem 11.9375rem 2.5rem 12.0625rem;
+  }
+  .capText{
+    z-index: 100;
+    width: 38.125rem;
+    background: rgba(255, 255, 255, 0.65);
+    background-size:auto;
+    border-radius: 1rem;
+    margin: 0 auto;
+    padding-bottom: 1.5rem;
+  }
+  .list1,.list2,.list3,.list4,.list5,.list6 {
+    background-image: url(./img/编组\ 15@2x.png);
+     position: relative;
+     left: -1.25rem; 
+     margin-top: 1.25rem;
+     margin-bottom: 1.25rem;
+    background-size: 100% 100%;
+
+  }
+  .list1{  
+      width: 18.6875rem ;
+      height: 3rem;
+      bottom: -1rem;
+      margin-bottom: 2.25rem;
+  }
+  .list2{
+    width: 15.125rem ;
+    height: 3rem;
+}
+.list3{
+    width: 15.125rem ;
+    height: 3rem; 
+}
+.list4{
+    width: 15.125rem ;
+    height: 3rem;
+}
+.list5{
+    width: 15.125rem ;
+    height: 3rem;
+}
+.list6{
+    width: 13.25rem ;
+    height: 3rem; 
+}
+.list7{
+    width: 15.125rem ;
+    height: 3rem;
+}
+
+.list1 p,.list2 p,.list3 p,.list4 p,.list5 p,.list6 p{
+    line-height: 1.75rem;
+    font-size: 1.75rem;
+    color: rgba(255, 255, 255, 0.85);
+    vertical-align: bottom;
+    font-weight: 600;
+    margin-left: 2.4375rem;
+    display: inline-block;
+    margin-top: 0.875rem;
+    font-family: PingFangSC-Semibold, sans-serif;
+}
+
+.capText .context1,.capText .context2,.capText .context3, .capText .context4,.capText .context5,.capText .context6{
+    width: 33.4375rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 400;
+    margin: 0 auto;
+    font-family:PingFangSC-Regular, sans-serif ;
+    
+}
+
+
+.cap2text{
+    width: 41.9375rem;
+    /* height: 15.9375rem; */
+    background: url(./img/编组\ 28@2x.png) no-repeat;
+    background-size:100% 100%;
+    margin-left: 4.375rem;
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 4.375rem;
+    
+}
+.cap2p{
+    width: 31.1875rem;
+    margin-left: 5rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    font-family: PingFangSC-Regular, sans-serif;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+
+
+.backindex{
+    width: 43.375rem;
+    height: 5.5625rem;
+    background: url(./img/编组\ 29@2x.png) no-repeat;
+    background-size: 100% 100%;
+    margin-left:1.875rem;
+    margin-right: 1.625rem;
+    margin-bottom: 5.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.txt6 {
+    z-index: 361;
+    width: 6rem;
+    display: block;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    font-family: PingFangSC-Regular;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+.arrowLeft{
+    z-index: 999;
+    display: inline-block;
+    margin-top: -0.1875rem;
+    margin-right: -0.3125rem;
+    height: 1.875rem;
+    width: 1.875rem;
+    margin-right: 0.3125rem;
+    position: relative;
+    bottom: -0.0625rem;
+}
+

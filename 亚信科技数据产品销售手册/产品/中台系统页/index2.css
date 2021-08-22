@@ -1,0 +1,484 @@
+html body{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+  }
+  .outer9 {
+    z-index: 334;
+    height: 4rem;
+    background-color: rgba(123, 163, 255, 1);
+    width: 46.875rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .word13 {
+    z-index: 335;
+    width: 31rem;
+    display: block;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    font-family: PingFangSC-Regular;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  .page{
+      width: 100%;
+      background-image: url(./img2/编组\ 35@2x.png);
+      background-size: 100%;
+      padding-top: 5.5rem;
+      padding-bottom:1.8125rem;
+  }
+  img.title{
+      display: block;
+      width: 31rem;
+      height: 17.8125rem;
+      margin: 0 8.1875rem 2.625rem 7.6875rem;
+  }
+  p.feature{
+    width: 33.75rem;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    font-size:1.25rem;
+    color: rgba(255, 255, 255,0.65);
+    margin: 0 9.4375rem 0 5.6875rem;
+    letter-spacing: 1rem;
+  }
+  p.title2{
+      width: 8.6875rem;
+      height: 2.25rem;
+      line-height: 2.25rem;
+      margin-left: 5.6875rem;
+      margin: 0 0 0 5.6875rem;
+      font-size: 2rem;
+      letter-spacing: 0.125rem;
+      color: white;
+      font-weight: 550;
+  }
+  .introduce{
+    width: 36.125rem;
+    /* height: 13.625rem; */
+    overflow: hidden;
+    /* overflow: scroll; */
+    margin: 0 5.0625rem 0 5.6875rem;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0.0625rem;
+    /* padding-bottom: 1.375rem; */
+  }
+
+  
+  .textbk{
+      width: 43.5rem;
+      background-image: url(./img2/编组\ 2.png);
+      background-size: 100%;
+      border-radius: 0.625rem;
+      padding-top: 2.4375rem;
+      margin: 0 auto;
+      padding-bottom: 1.625rem;
+  }
+  .pro{
+      width: 25.875rem;
+      height: 2.25rem;
+      line-height: 2.25rem;
+      font-size:1.25rem;
+      color: rgba(00, 00,  00,0.45);
+      margin: 0 13.625rem 0 4rem;
+      letter-spacing: 0.85rem;
+  }
+  ul.xing{
+      width: 26rem;
+      height: 12.5rem;
+      padding: 1.75rem 1.5625rem 1.75rem 1.75rem;
+      background: linear-gradient(90deg, #EDF1FB 0%, #EDF1FB 48%, #EDF1FB 100%);
+      border-radius: 0.75rem;
+      opacity: 0.84;
+      margin: 1.8125rem auto 0 2.0625rem;
+      list-style: none;
+  }
+  ul.xing li{
+      height: 3rem;
+      line-height: 3rem;
+      font-size: 1.5rem;
+      letter-spacing: 0.0625rem;
+      line-height: 3rem;
+      font-weight: bold;
+      color: rgba(00, 00,  00,0.65);
+      
+  }
+  .xingxing{
+    width: 1.625rem;
+    height: 1.75rem;
+    background: url(./img2/bd6);
+    background-size: 100% 400%;
+    display: inline-block;
+    margin-right: 1.5625rem;
+    position: relative;
+    top: 0.3225rem;    
+  }
+  p.kehu{
+      width: 36.5rem;
+      height: 6.75rem;
+      font-size: 1.5rem;
+      line-height: 2.25rem;
+      letter-spacing: 0.0625rem;
+      color: rgba(00, 00,  00,0.65);
+      margin: 1.1875rem auto 1rem;
+  }
+  p.kehu span{
+    width: 36.5rem;
+    height: 6.75rem;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.0625rem;
+    color: #3758F8;
+    font-weight: 500;
+  }
+
+  .layer14 {
+    z-index: auto;
+    width: 39.375rem;
+    height: 5rem;
+    justify-content: space-between;
+    margin: 1rem 0 0 2.125rem;
+  }
+  
+  .mod9 {
+    z-index: 91;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background: url(./img/mod9)
+      0rem 0rem no-repeat;
+    width: 12.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .layer15 {
+    z-index: 1000;
+    width: 9.625rem;
+    height: 3.125rem;
+    background: url(./img/layer15);
+    background-size: 100% 100%;
+  }
+  .pic4 {
+    z-index: 134;
+    width: 12.5rem;
+    height: 5rem;
+  }
+  
+  .mod10 {
+    z-index: 184;
+    width: 12.5rem;
+    height: 5rem;
+    background: url(./img/mod10);
+    background-size: 100% 100%;
+  }
+  
+  .layer16 {
+    z-index: auto;
+    width: 39.375rem;
+    height: 5.0625rem;
+    justify-content: space-between;
+    margin: 0.9375rem 0 0 2.125rem;
+  }
+  
+  .main1 {
+    z-index: 218;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background: url(./img/main1)
+      0rem 0rem no-repeat;
+    margin-top: 0.0625rem;
+    width: 12.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .outer7 {
+    z-index: 257;
+    width: 10.125rem;
+    height: 2.9375rem;
+    background: url(./img/outer7);
+    background-size: 100% 100%;
+  }
+  
+  .main2 {
+    z-index: 219;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background: url(./img/main2)
+      0rem 0rem no-repeat;
+    width: 12.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main3 {
+    z-index: 224;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background: url(./img/main3)
+      0rem 0rem no-repeat;
+    width: 12.5rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .mod11 {
+    z-index: 225;
+    width: 10.625rem;
+    height: 2.4375rem;
+    background: url(./img/mod11);
+    background-size: 100% 100%;
+  }
+  .label2 {
+    z-index: 312;
+    position: absolute;
+    left: 0.8125rem;
+    top: 1.8125rem;
+    width: 2.4375rem;
+    height: 0.9375rem;
+  }
+  .layer17 {
+    z-index: auto;
+    width: 39.375rem;
+    height: 5rem;
+    justify-content: space-between;
+    margin: 1rem 0 0 2.0625rem;
+  }
+  
+  .group4 {
+    z-index: 227;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background: url(./img/droup4)
+      0rem 0rem no-repeat;
+    width: 12.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .group6 {
+    z-index: 235;
+    width: 12.5rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background: url(./img/group6)
+      0rem 0rem no-repeat;
+  }
+  .wrap2 {
+    z-index: 458;
+    width: 8.4375rem;
+    height: 3.125rem;
+    background: url(./img/wrap2);
+    background-size: 100% 100%;
+    margin-top: 0.9375rem;
+    margin-left: 2.0625rem;
+  }
+
+  .layer18 {
+    z-index: auto;
+    width: 39.25rem;
+    height: 5rem;
+    justify-content: space-between;
+    margin: 1rem 0 0 2.0625rem;
+  }
+  
+  .mod12 {
+    z-index: 228;
+    width: 12.5rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background: url(./img/mod12)
+      0rem 0rem no-repeat;
+  }
+  .pic3 {
+    z-index: 407;
+    width: 8.4375rem;
+    height: 3.125rem;
+    margin-top: 0.9375rem;
+    margin-left: 1.8125rem;
+  }
+  
+  
+  .mod13 {
+    z-index: 229;
+    width: 12.5rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background: url(./img/mod13)
+      0rem 0rem no-repeat;
+  }
+  
+  .mod14 {
+    z-index: 232;
+    width: 12.5rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background: url(./img/mod14)
+      0rem 0rem no-repeat;
+  }
+
+  .layer19 {
+    z-index: auto;
+    width: 39.25rem;
+    height: 5rem;
+    justify-content: space-between;
+    margin: 1rem 0 0 2.0625rem;
+  }
+  
+  .section2 {
+    z-index: 233;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background: url(./img/section2)
+      0rem 0rem no-repeat;
+    width: 12.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 1.0625rem;
+  }
+  
+  .pic5 {
+    z-index: 236;
+    width: 10.1875rem;
+    height: 3.125rem;
+  }
+  
+  .section3 {
+    z-index: 230;
+    width: 12.5rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background: url(./img/sc3)
+      0rem 0rem no-repeat;
+  }
+  
+  .section4 {
+    z-index: 231;
+    width: 12.5rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background: url(./img/sc4)
+      0rem 0rem no-repeat;
+  }
+
+  .layer20 {
+    z-index: 234;
+    width: 12.5rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background: url(./img/layer20)
+      0rem 0rem no-repeat;
+    align-self: flex-start;
+    margin: 1rem 0 0 2.0625rem;
+    margin-bottom: 3.8125rem;
+  }
+  .wrap1 {
+    z-index: 405;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background: url(./img/wrap1)
+      100% 100% no-repeat;
+    width: 12.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .pic2 {
+    z-index: 406;
+    /* width: 11.125rem;
+    height: 1.625rem; */
+    width: 11.125rem;
+    height: 1.625rem;
+  }
+
+  .reword{
+      width: 40.5625rem;
+      height: 8rem;
+      margin: 2.4375rem 0.875rem 1.5rem 2.0625rem;
+      background: url(./img2/编组\ 36@2x.png);
+      background-size: 40.5625rem 8rem ;
+      padding:0.1rem 3.5625rem 1.5rem 7.125rem;
+  }
+  .reword p{
+      width: 29.875rem;
+      height: 0.5rem;
+      line-height: 2.5rem;
+      font-size: 1.625rem;
+      color: rgba(255, 255, 255, 1);
+      font-weight: 500;
+  }
+  .reword2{
+    width: 40.5625rem;
+    height: 8rem;
+    margin: 0 0.875rem 1.5rem 2.0625rem;
+    background: url(./img2/编组\ 37@2x.png);
+    background-size: 40.5625rem 8rem ;
+    padding-top: 2.75rem;
+}
+.reword2 p{
+    width: 29.875rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1.625rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    margin: 0 3.5625rem 2.75rem 7.125rem;
+}
+.reword3{
+    width: 40.5625rem;
+    height: 8rem;
+    margin: 0 0.875rem 0 2.0625rem;
+    background: url(./img2/编组\ 38@2x.png);
+    background-size: 40.5625rem 8rem ;
+    padding-top: 2.75rem;
+}
+.reword3 p{
+    width: 29.875rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1.625rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    margin: 0 3.5625rem 2.75rem 7.125rem;
+}
+
+.bottomback {
+    z-index: 359;
+    width: 43.375rem;
+    height: 5rem;
+    border-radius: 1rem;
+    background-color: rgba(84, 113, 255, 1);
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.8125rem;
+    margin-top: 4.5rem;
+  }
+  
+  .outer15 {
+    z-index: auto;
+    width: 8.625rem;
+    height: 1.5rem;
+    justify-content: space-between;
+  }
+  .arrowLeft{
+      margin-top: -0.1875rem;
+      margin-right: -0.3125rem;
+      height: 1.875rem;
+      width: 1.875rem;
+  }
+  .txt6 {
+    z-index: 361;
+    width: 6rem;
+    display: block;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    font-family: PingFangSC-Regular;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>网络数据共享</title>
+  <link rel="stylesheet" type="text/css" href="./common.css" />
+  <link rel="stylesheet" type="text/css" href="./index.css" />
+</head>
+
+<body>
+  
+  <a href="../../首页/index.html" style="text-decoration: none;">
+    <button class="box2 flex-col">
+      <span class="word2">返回首页</span>
+    </button>  
+  </a>
+  <div class="bigtext" style="width: 46.875rem;">
+    <div class="bg1">
+      <img class="img1" src="./img/编组 15@2x.png" alt="">
+    </div>
+   <div class="bg2">
+      <p class="context1">
+          亚信科技大数据产品（AISWare BigData）助力某运营商打造网络数据共享平台， 实现网络数据如4G信令、VOLTE信令等各种数据统一采集、统一存储计算，统一开放共享。
+      </p>
+      <p class="context2">
+          数据共享平台针对总部网络事业部各类网管系统存在的数据重复采集、数据割裂、共享困难等问题，实现对全网全专业OMC系统、总部各类网管系统数据的统一采集、统一存储、统一关联、统一管理和统一共享，实现网管域分钟级实时数据共享，以及历史数据的统一存储和共享，实现对各专业共享数据的应用支撑。同时统一对接公司智慧中台，实现跨域数据共享和交换。
+      </p>
+  
+    </div>
+    
+    <img class="capility1" src="./img/编组 2@2x.png" alt="">
+  
+    <div class="capText">
+      <div class="list1">
+        <p>数据统一采集</p>
+      </div>
+      <p class="context1">
+          提供多协议、批量、实时数据采集、清洗、转换、集成、加载入库等功能。
+      </p>
+      <div class="list2">
+        <p>数据存储</p>
+      </div>
+      <p class="context2">
+          提供Hadoop、Spark、Flink、MPPDB、Kafka、主流RMDB（Mysql、PostgresDB）、Hive、Hbase、Redis 、NoSQL数据库等数据存储能力。
+      </p>
+      <div class="list3">
+        <p>数据统一处理</p>
+      </div>
+      <p class="context3">
+          系统提供消息处理、流处理、批处理等大数据处理能力，提供各类数据库的数据访问和能力调用。
+      </p>
+      <div class="list4">
+        <p>数据统一共享</p>
+      </div>
+      <p class="context4">
+          提供实时数据共享、数据服务（API）共享、批量文件共享、多网管共享等实现方式，提供丰富的数据共享接口。
+      </p>
+      <div class="list5">
+          <p>数据统一管理</p>
+        </div>
+        <p class="context5">
+          提供数据统一管理功能，包括：数据规划管理、数据质量管理、数据模型管理、数据价值评估等。
+        </p>
+        <div class="list6">
+          <p>DIaaS服务</p>
+        </div>
+        <p class="context6">
+          基于数据共享平台的软硬件资源、数据处理能力及数据目录资产，获得独享的数据处理管道，开展独立自主的数据分析作业开发、部署、运行调度。
+        </p>
+        <div class="list7">
+          <p>系统门户</p>
+        </div>
+        <p class="context7">
+          提供平台用户对其所有可用功能的操作，支持PC和手机终端登录、管理、审批。包括数据共享服务门户、DIaaS服务门户和数据平台运营管理门户。
+        </p>
+    </div>
+  
+  
+    <img class="capility2" src="./img/编组 2备份 4@2x.png" alt="">
+     
+    <div class="cap2text">
+    </div>
+    <a href="../../首页/index.html" style="text-decoration: none;">  
+    <div class="backindex">
+        <img class="arrowLeft" src="./img/左箭头.png" alt="">
+       <span class="txt6">返回首页</span> 
+    </div>
+    </a>
+  </div>
+  <script>
+    // var metaNode = document.querySelector('meta[name=viewport]');
+    // var designWidth = 750;
+    // var scale = document.documentElement.clientWidth / designWidth;
+    // //通过设置meta元素中content的initial-scale值达到移动端适配
+    // var meta = document.getElementsByTagName("meta")[2]
+    // meta.content = "initial-scale=" + scale + ",minimum-scale=" + scale + ",maximum-scale=" + scale + ",user-scalable=no";
+    // console.log(document.documentElement.clientWidth);
+    // console.log(meta);
+
+
+    //获取meta节点
+    var metaNode = document.querySelector('meta[name=viewport]');
+    //定义设计稿宽度为375
+    var designWidth = 750;
+    //计算当前屏幕的宽度与设计稿比例
+    var scale = document.documentElement.clientWidth / designWidth;
+    //通过设置meta元素中content的initial-scale值达到移动端适配
+    var meta = document.getElementsByTagName("meta")[2]
+    //   meta.content = "initial-scale=" + scale + ",minimum-scale=" + scale/5 + ",maximum-scale=" + scale*2 + ",user-scalable=no";
+    console.log(document.documentElement.clientWidth);
+    console.log(meta);
+    let htmlDom = document.getElementsByTagName('html')[0]
+    console.log(htmlDom.style.fontSize);
+    htmlDom.style.fontSize = 16 * (document.documentElement.clientWidth) / designWidth + 'px';
+    //    htmlDom.style.fontSize=16*scale+'px';
+    console.log(htmlDom.style.fontSize, scale);
+  </script>
+</body>
+
+</html>

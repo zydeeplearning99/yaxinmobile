@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>能源平台</title>
+  <link rel="stylesheet" type="text/css" href="./common.css" />
+  <link rel="stylesheet" type="text/css" href="./index.css" />
+</head>
+
+<body>
+  <a href="../../首页/index.html" style="text-decoration: none;">
+    <button class="box2 flex-col">
+      <span class="word2">返回首页</span>
+    </button>
+  </a>
+  <div class="bigcontext" style="width: 46.875rem;">
+    <div class="bg1">
+      <img class="img1" src="./img/编组 12@2x.png" alt="">
+    </div>
+   <div class="bg2">
+      <p class="title1">
+          亚信科技大数据产品助力某能源行业统一数据中台建设，赋能对外数据服务。
+        </p>
+        <p class="context1">
+          某能源行业数据中台通过归集企业数据，如电网公司生产实时系统、内部企业机组生产调度系统、ERP系统等各类数据，实现各业务系统之间的互联互通，提供数据的交换共享，打破信息化孤岛的现状，实现数据的统一管理。
+        </p>
+  
+    </div>
+    
+    <img class="capility1" src="./img/编组 2@2x.png" alt="">
+  
+    <div class="capText">
+     
+      <div class="list1">
+        <p>平台能力集中建设</p>
+      </div>
+      <p class="context1">
+          采用基于分布式处理的功能架构与技术架构，建设分层处理、功能松耦合的公司级统一数据中心平台。
+      </p>
+      <div class="list2">
+        <p>多源数据集成</p>
+      </div>
+      <p class="context2">
+          应用Hadoop、实时流处理、分布式数据库等大数据处理技术，构建公司内外部结构化、非结构化、实时数据、流数据等不同形态海量数据的处理能力。
+      </p>
+      <div class="list3">
+        <p>分级存储管理</p>
+      </div>
+      <p class="context3">
+          合理部署存储资源，针对公司级统一数据中心海量数据实施分级存储管理。
+      </p>
+      <div class="list4">
+        <p>数据质量管理</p>
+      </div>
+      <p class="context4">
+          以元数据驱动为理念，进行数据标准化开发，保障公司级统一数据中心数据准确性。
+      </p>
+      <div class="list5">
+          <p>保障数据安全</p>
+        </div>
+        <p class="context5">
+          设置数据安全策略，绑定到每个策略的脱敏规则，实现数据加解密。
+        </p>
+        <div class="list6">
+          <p>数据应用开发</p>
+        </div>
+        <p class="context6">
+          实现人力资源各类数据查询、统计分析、报表及图形方式展示；实现发电运行（如火电、风电、光伏的出力、负荷率、日电量和开机容量等指标）可视化、实现经营指标（物资管理、设备管理、合同管理等）可视化等。
+        </p> 
+    </div>
+  
+  
+    <img class="capility2" src="./img/编组 2备份 6@2x.png" alt="">
+     
+    <div class="cap2text">
+      <p class="cap2p">
+          在采集并集成电网公司、内部单位发电实时数据基础上，开发主要业务需求的数据可视化展示功能，多维度全方位展示电力市场信息，分析竞争对手情况，对企业的运营管理提供及时高效的支撑，提升企业的运营管理效率，深度挖掘数据价值，更好的为企业决策提供辅助支持。
+        </p>
+    </div>
+  
+  
+  
+    <a href="../../首页/index.html" style="text-decoration: none;">
+      <div class="backindex">
+        <img class="arrowLeft" src="./img/左箭头.png" alt="">
+       <span class="txt6">返回首页</span> 
+    </div>
+     </a>
+  </div>
+  
+  <script>
+    // var metaNode = document.querySelector('meta[name=viewport]');
+    // var designWidth = 750;
+    // var scale = document.documentElement.clientWidth / designWidth;
+    // //通过设置meta元素中content的initial-scale值达到移动端适配
+    // var meta = document.getElementsByTagName("meta")[2]
+    // meta.content = "initial-scale=" + scale + ",minimum-scale=" + scale + ",maximum-scale=" + scale + ",user-scalable=no";
+    // console.log(document.documentElement.clientWidth);
+    // console.log(meta);
+
+    //获取meta节点
+    var metaNode = document.querySelector('meta[name=viewport]');
+    //定义设计稿宽度为375
+    var designWidth = 750;
+    //计算当前屏幕的宽度与设计稿比例
+    var scale = document.documentElement.clientWidth / designWidth;
+    //通过设置meta元素中content的initial-scale值达到移动端适配
+    var meta = document.getElementsByTagName("meta")[2]
+    //   meta.content = "initial-scale=" + scale + ",minimum-scale=" + scale/5 + ",maximum-scale=" + scale*2 + ",user-scalable=no";
+    console.log(document.documentElement.clientWidth);
+    console.log(meta);
+    let htmlDom = document.getElementsByTagName('html')[0]
+    console.log(htmlDom.style.fontSize);
+    htmlDom.style.fontSize = 16 * (document.documentElement.clientWidth) / designWidth + 'px';
+    //    htmlDom.style.fontSize=16*scale+'px';
+    console.log(htmlDom.style.fontSize, scale);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+html body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #C3D4FF;
+}
+.box2 {
+    z-index: 233;
+    height: 4rem;
+    background-color: rgba(123, 163, 255, 1);
+    width: 46.875rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.word2 {
+    z-index: 234;
+    width: 6rem;
+    display: block;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    font-family: PingFangSC-Regular;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  .bg1{
+      width: 46.875rem;
+      height: 31.75rem;
+      background-image: url(./img/集中化@2x.png);
+      background-size: 46.875rem 31.75rem;
+  }
+  .bg1 img{
+      width: 36.25rem;
+      height: 10rem;
+      margin: 7.625rem 5.3125rem 14.125rem 5.3125rem;
+  }
+
+  .bg2{
+      z-index: 10;
+      width: 43.125rem;
+      height: 31.25rem;
+      margin: 0 auto;
+      position: relative;
+      top: -6.1875rem;
+      background-image: url(./img/编组\ 24@2x.png);
+      background-size: 100% 100%;
+      padding-top: 3.6875rem;
+      margin-bottom: -6.1875rem;
+  }
+
+  .context1,.context2{
+     width: 34.375rem; 
+     line-height: 2.0625rem;
+     font-size: 1.5rem;
+     color: rgba(0, 0, 0, 0.65);
+     font-weight:400;
+     margin: 0 auto;
+     font-family: PingFangSC-Regular, sans-serif
+  }
+  .context1{
+      margin-bottom: 1.25rem;
+  }
+  .context2{
+      margin-bottom: 1.5625rem;
+  }
+
+  .capility1 , .capility2 {
+      width: 22.875rem;
+      height: 7.6875rem;
+      margin: 3.125rem 11.9375rem 2.5rem 12.0625rem;
+  }
+  .capText{
+      z-index: 100;
+    width: 36.875rem;
+    height: 84.375rem;
+    background: rgba(255, 255, 255, 0.65);
+    background-size:auto;
+    border-radius: 1rem;
+    /* filter: blur(0.3125rem); */
+    margin: 0 auto;
+  }
+  .list1,.list2,.list3,.list4,.list5,.list6,.list7 {
+    background-image: url(./img/编组\ 29@2x.png);
+     position: relative;
+     left: -1.25rem; 
+     margin-top: 1.25rem;
+     margin-bottom: 1.25rem;
+    background-size: 100% 100%;
+
+  }
+  .list1{  
+      width: 15.125rem ;
+      height: 3rem;
+      bottom: -1rem;
+      margin-bottom: 2.25rem;
+  }
+  .list2{
+    width: 11.375rem ;
+    height: 3rem;
+}
+.list3{
+    width: 15.125rem ;
+    height: 3rem; 
+}
+.list4{
+    width: 15.125rem ;
+    height: 3rem;
+}
+.list5{
+    width: 15.125rem ;
+    height: 3rem;
+}
+.list6{
+    width: 13.25rem ;
+    height: 3rem; 
+}
+.list7{
+    width: 11.125rem ;
+    height: 3rem;
+}
+
+.list1 p,.list2 p,.list3 p,.list4 p,.list5 p,.list6 p,.list7 p{
+    line-height: 1.75rem;
+    font-size: 1.75rem;
+    color: rgba(255, 255, 255, 0.85);
+    vertical-align: bottom;
+    font-weight: 600;
+    margin-left: 2.4375rem;
+    display: inline-block;
+    margin-top: 0.875rem;
+    font-family: PingFangSC-Semibold, sans-serif;
+}
+
+.capText .context1,.capText .context2,.capText .context3, .capText .context4,.capText .context5,.capText .context6, .capText .context7{
+    width: 33.4375rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 400;
+    margin: 0 auto;
+    font-family:PingFangSC-Regular, sans-serif ;
+    
+}
+
+
+.cap2text{
+    width: 41.9375rem;
+    height: 15.9375rem;
+    background: url(./img/编组\ 25@2x.png) no-repeat;
+    background-size:100% 100%;
+    margin-left: 4.375rem;
+    padding-top: 4rem;
+    margin-bottom: 4.375rem;
+    
+}
+
+
+
+.backindex{
+    width: 43.375rem;
+    height: 5.5625rem;
+    background: url(./img/编组\ 27@2x.png) no-repeat;
+    background-size: 100% 100%;
+    margin-left:1.875rem;
+    margin-right: 1.625rem;
+    margin-bottom: 5.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.txt6 {
+    z-index: 361;
+    width: 6rem;
+    display: block;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    font-family: PingFangSC-Regular;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+.arrowLeft{
+    z-index: 999;
+    display: inline-block;
+    margin-top: -0.1875rem;
+    margin-right: -0.3125rem;
+    height: 1.875rem;
+    width: 1.875rem;
+    margin-right: 0.3125rem;
+    position: relative;
+    bottom: -0.0625rem;
+}
+

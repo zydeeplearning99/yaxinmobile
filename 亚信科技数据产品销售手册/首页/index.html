@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>亚信科技大数据产品销售手册</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 1rem;
+        }
+
+        ul,li {
+            list-style: none;
+        }
+
+        .welcome {
+            background-image: url(./img/index_img/welcome.png);
+            height: 27.5rem;
+            width: 46.875rem;
+            background-size: 100% 100%;
+            position: relative;
+        }
+
+        .welcome img {
+            margin-left: 2.875rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .welcome .up {
+            width: 14.9375rem;
+            height: 2.9375rem;
+            margin-top: 9.5rem;
+        }
+
+        .welcome .down {
+            width: 40.9375rem;
+            height: 2.9375rem;
+        }
+
+        .welcome .buttom {
+            width: 40.625rem;
+            height: 4rem;
+            margin: 0 auto;
+            background-color: #595959;
+            border-top-left-radius: 0.875rem;
+            border-top-right-radius: 0.875rem;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+
+            font-size: 2rem;
+            color: white;
+            display: inline-block;
+            text-align: center;
+            line-height: 4rem;
+            letter-spacing: 0.0625rem;
+            /* font-family: "Microsoft YaHei"; */
+            font-family: "PingFangSC-Medium", "PingFang SC";
+        }
+
+        .banner {
+            width: 46.875rem;
+            height: 28rem;
+            background-image: url(./img/index_img/矩形备份\ 2@3x.png);
+            /* background: url(./img/index_img/编组\ 34@3x.png) 100% 100% no-repeat; */
+            background-size: 100% 100%;
+        }
+
+        .leftTop,
+        .rightTop,
+        .leftBottom,
+        .rightBottom {
+            width: 20.875rem;
+            height: 11.5rem;
+            /* border: 0.125rem solid red; */
+            float: left;
+            margin-top: 1.375rem;
+            margin-left: 1.625rem;
+            position: relative;
+            overflow: hidden;
+            border-radius: 1.375rem;
+        }
+
+        .banner img {
+            width: 46.875rem;
+            height: 28rem;
+            position: absolute;
+        }
+
+        .leftTop img {
+            top: -1.6875rem;
+            left: -1.6875rem;
+        }
+
+        .rightTop img {
+            top: -1.6875rem;
+            right: -1.6875rem;
+        }
+
+        .leftBottom img {
+            bottom: -1.6875rem;
+            left: -1.6875rem;
+        }
+
+        .rightBottom img {
+            bottom: -1.6875rem;
+            right: -1.6875rem;
+        }
+
+        .ulContext {
+            margin-right: 0;
+            width: 46.875rem;
+            height: 50.5rem;
+            background: url(./img/index_img/编组\ 35@3x.png) -0.6rem;
+            background-size: 47.6875rem 50.75rem;
+        }
+
+        /* .context {
+            background-color: #EDF1FB;
+        } */
+        /* ul li{
+            width: 100%;
+        } */
+        /* ul{
+            height: 35.0625rem;
+        } */
+
+
+        .ulContext ul li {
+            box-sizing: border-box;
+            width: 100%;
+            /* padding-top
+            : 3.6875rem; */
+            padding: 2.1875rem 3.75rem 0rem 3.625rem;
+            height: 12.5625rem;
+            /* border-bottom: 0.0625rem solid #d3DEF8; */
+        }
+
+        .ulContext ul li img {
+            width: 8.75rem;
+            height: 8.75rem;
+            margin-right: 1.9375rem;
+        }
+        /* .ulContext ul li .text{
+            width: 33rem;
+        } */
+
+        .ulContext ul li p.title {
+            font-family: "PingFangSC-Medium", "PingFang SC";
+            /* font-family: "SimHei"; */
+            font-size: 2rem;
+            color: black;
+            font-weight: Medium;
+            line-height: 2rem;
+            margin-bottom: 1rem;
+            /* margin-top: -0.1875rem; */
+        }
+
+        .ulContext ul a {
+            text-decoration: none;
+        }
+
+        .ulContext ul li p.context {
+            /* margin-top: 0.1875rem; */
+            /* width: 29.375rem; */
+            line-height: 2rem;
+            font-size: 1.5rem;
+            color: rgba(00, 00, 00, 0.5);
+            font-weight: lighter;
+            font-family: " PingFangSC-Light, PingFang SC";
+        }
+
+        .footer {
+            /* background-color: #EDF1FB; */
+            box-sizing: border-box;
+            width: 46.875rem;
+            height: 23.8125rem;
+            background: linear-gradient(180deg, #EDF1FB 0%, #EDF1FB 100%);
+            padding-top: 2.3125rem;
+        }
+
+        .footCenter {
+            width: 46rem;
+            height: 19.3125rem;
+            ;
+            background-image: url(./img/index_img/矩形备份\ 14@3x.png);
+            background-size: 100% 100%;
+            padding-top: 1.4375rem;
+        }
+
+        .footCenterHeadImg {
+            display: block;
+            width: 15.1875rem;
+            height: 2.5rem;
+            background: url(./img/index_img/编组\ 25@3x.png);
+            background-size: 15.1875rem 2.5rem;
+
+            margin: 0 auto;
+        }
+
+        .footCenterHeadImg p {
+
+            font-size: 1.5625rem;
+            font-weight: 600;
+            color: black;
+            text-align: center;
+        }
+
+        .footCenterHeadcontext {
+            display: block;
+            text-align: center;
+            font-size: 1.25rem;
+            font-family: PingFangSC-Regular, PingFang SC;
+            color: rgba(00, 00, 00, 0.65);
+        }
+
+        .footCenter ul {
+            list-style: none;
+            margin-left: 3.375rem;
+        }
+
+
+
+        .footCenter ul li {
+            background-size: 12.5rem 9.6875rem;
+            float: left;
+            width: 12.5rem;
+            height: 9.6875rem;
+            margin-right: 1.3125rem;
+            margin-top: 1.5rem;
+        }
+
+        .footCenter ul li:first-child {
+            background-image: url(./img/index_img/编组\ 36@3x.png);
+        }
+
+        .footCenter ul li:nth-child(2) {
+            background-image: url(./img/index_img/编组\ 36@3x.png);
+        }
+
+        .footCenter ul li:last-child {
+            background-image: url(./img/index_img/编组\ 36@3x.png);
+        }
+
+        .footCenter ul li p.number {
+            line-height: 2.0625rem;
+            font-size: 1.5rem;
+            text-align: center;
+            margin-top: 0.2188rem;
+            color: white;
+            font-family: 'Microsoft YaHei';
+        }
+
+
+        .footCenter ul li p.text {
+            text-align: center;
+            /* width: 33rem; ; */
+            /* width: 5.5625rem; */
+            line-height: 2.5rem;
+            font-size: 1.75rem;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: 500;
+            color: rgba(00, 00, 00, 0.65);
+            margin: 1.375rem auto;
+            /* margin: 3.125rem; */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="welcome">
+        <img class="up" src="./img/index_img/欢迎了解@3x.png" alt="">
+        <img class="up" src="./img/index_img/欢迎了解@3x.png" alt="">
+        <img class="down" src="./img/index_img/亚信科技大数据产品家族@3x.png" alt="">
+        <div class="buttom">
+            让数据成为新的生成动力</span>
+        </div>
+    </div>
+    <div class="banner">
+
+        <div class="leftTop">
+            <a href="../产品/产品详情页/大数据基础平台/基础平台.html">
+                <img src="./img/index_img/编组 34@3x.png" alt="">
+            </a>
+        </div>
+        <div class="rightTop">
+            <a href="../产品/中台系统页/数据中台.html">
+                <img src="./img/index_img/编组 34@3x.png" alt="">
+            </a>
+        </div>
+        <div class="leftBottom">
+            <a href="../产品/探索分析页/探索分析.html">
+                <img src="./img/index_img/编组 34@3x.png" alt="">
+            </a>
+        </div>
+        <div class="rightBottom">
+            <a href="../产品/知识图谱页/知识图谱.html">
+                <img src="./img/index_img/编组 34@3x.png" alt="">
+            </a> >
+        </div>
+    </div>
+    <div class="ulContext">
+        <ul>
+            <a href="../案例/集中化2/集中化2..html">
+                <li>
+                    <img src="./img/index_img/编组 38@3x.png" alt="" style="float: left;">
+                    <div class="text">
+                        <p class="title">集中化大数据平台解决方案</p>
+                        <p class="context">构建完整大数据平台服务体系，支持某运营商多个省公司入驻，为全网各业务部门提供灵活的大数据服务。</p>
+                    </div>
+                </li>
+            </a>
+            <a href="../案例/能源平台/能源平台.html">
+                <li>
+                    <img src="./img/index_img/编组 37@3x.png" alt="" style="float: left;">
+                    <div class="text">
+                        <p class="title">网络数据共享平台方案</p>
+                        <p class="context">打造通信行业网络数据共享平台，实现网络和信令数据的统一采集、统一存储计算，统一开放共享。</p>
+                    </div>
+                </li>
+            </a>
+            <a href="../案例/智慧城市/智慧城市.html">
+                <li>
+                    <img src="./img/index_img/编组 31@3x.png" alt="" style="float: left;">
+                    <div class="text">
+                        <p class="title">智慧城市方案</p>
+                        <p class="context">以打造“信息快捷、服务智能”的新型产业城市为目标，推进数据资源的整合和开放共享。</p>
+                    </div>
+                </li>
+            </a>
+            <a href="../案例/能源平台/能源平台.html">
+                <li>
+                    <img src="./img/index_img/编组 33@3x.png" alt="" style="float: left;">
+                    <div class="text">
+                        <p class="title">能源行业数据中台方案</p>
+                        <p class="context">通过归集、管理和共享电网生产实时数据、机组生产调度数据、ERP数据等，实现各业务系统之间的互联互通。</p>
+                    </div>
+                </li>
+            </a>
+        </ul>
+    </div>
+    <div class="footer">
+        <div class="footCenter">
+            <div class="footCenterHeadImg">
+                <p>技术热点</p>
+            </div>
+            <!-- <img class="footCenterHeadImg" src="./img/index_img/编组 25@3x.png" alt=""> -->
+            <span class="footCenterHeadcontext">这里有最流行、最热门的大数据技术热点</span>
+            <ul>
+                <li>
+                    <p class="number">1</p>
+                    <p class="text"><span>湖仓</span><br>一体化</p>
+                </li>
+                <li>
+                    <p class="number">2</p>
+                    <p class="text">数据生<br>
+                        产要素</p>
+                </li>
+                <a href="../热点/平民化/平民化.html" class="">
+                    <li>
+                        <p class="number">3</p>
+                        <p class="text">数据分析<br> 的平民化</p>
+                    </li>
+                </a>
+
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // //获取meta节点
+        // var metaNode = document.querySelector('meta[name=viewport]');
+        // //定义设计稿宽度为375
+        // var designWidth = 1080;
+        // //计算当前屏幕的宽度与设计稿比例
+        // var scale = document.documentElement.clientWidth / designWidth;
+        // //通过设置meta元素中content的initial-scale值达到移动端适配
+        // var meta = document.getElementsByTagName("meta")[2]
+        // meta.content = "initial-scale=" + scale + ",minimum-scale=" + scale + ",maximum-scale=" + scale + ",user-scalable=no";
+        // console.log(document.documentElement.clientWidth);
+        // // console.log(meta);
+
+        //获取meta节点
+        var metaNode = document.querySelector('meta[name=viewport]');
+        //定义设计稿宽度为375
+        var designWidth = 750;
+        //计算当前屏幕的宽度与设计稿比例
+        var scale = document.documentElement.clientWidth / designWidth;
+        //通过设置meta元素中content的initial-scale值达到移动端适配
+        var meta = document.getElementsByTagName("meta")[2]
+        //   meta.content = "initial-scale=" + scale + ",minimum-scale=" + scale/5 + ",maximum-scale=" + scale*2 + ",user-scalable=no";
+        console.log(document.documentElement.clientWidth);
+        console.log(meta);
+        let htmlDom = document.getElementsByTagName('html')[0]
+        console.log(htmlDom.style.fontSize);
+        htmlDom.style.fontSize = 16 * (document.documentElement.clientWidth) / designWidth + 'px';
+        //    htmlDom.style.fontSize=16*scale+'px';
+        console.log(htmlDom.style.fontSize, scale);
+    </script>
+</body>
+
+</html>
